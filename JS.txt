@@ -1,0 +1,11 @@
+LOW:
+	CYBER CHEF -> ROT 13, MD5 -> success -> 38581812b435834ebf84ebcc2c6424d6 -> WELL DONE
+
+MEDIUM:
+	XXeMegnahCXX -> XXsseccusXX , success -> WELL DONE   
+
+HIGH:
+	-> document.getElementById("token").value = do_something('success')
+	-> document.getElementById("token").value = sha256('XX' + document.getElementById("token").value)
+	-> succuess -> WELLDONE
+	
